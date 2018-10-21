@@ -153,6 +153,10 @@ MonoBehaviour:
     cloud: {fileID: 0}
     count: 0
     rate: 0
+  - name: 
+    cloud: {fileID: 0}
+    count: 0
+    rate: 0
   timeBetweenWaves: 5
   waveCountdown: 0
 --- !u!4 &156168734

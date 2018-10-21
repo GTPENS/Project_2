@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-22T00:09:43.575+07:00
-  initializedAtString: 2018-10-21T23:11:21.521+07:00
+  lastUpdatedAtString: 2018-10-22T00:21:33.579+07:00
+  initializedAtString: 2018-10-22T00:21:32.665+07:00
   entries:
+  - path: .gitignore
+    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\.gitignore
+    projectPath: .gitignore
+    originalPath: 
+    status: 1
+    staged: 0
   - path: .vs\desktop.ini
     fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\.vs\desktop.ini
     projectPath: .vs\desktop.ini
@@ -54,6 +60,18 @@ MonoBehaviour:
   - path: .vs\Planets\v15\Server\sqlite3\storage.ide
     fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\.vs\Planets\v15\Server\sqlite3\storage.ide
     projectPath: .vs\Planets\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: .vs\Planets\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\.vs\Planets\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Planets\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: .vs\Planets\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\.vs\Planets\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Planets\v15\Server\sqlite3\storage.ide-wal
     originalPath: 
     status: 1
     staged: 0
@@ -3505,6 +3523,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Library\ScriptMapper
     fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Library\ScriptMapper
     projectPath: Library\ScriptMapper
@@ -4084,72 +4108,6 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-0b37959732663a54c9cbe75293d346f5
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-0b37959732663a54c9cbe75293d346f5
-    projectPath: Temp\UnityTempFile-0b37959732663a54c9cbe75293d346f5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-156b303173c2c2d4a9f85a72b31fcecb
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-156b303173c2c2d4a9f85a72b31fcecb
-    projectPath: Temp\UnityTempFile-156b303173c2c2d4a9f85a72b31fcecb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-923f0717fac912944b0cd04d33dc7097
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-923f0717fac912944b0cd04d33dc7097
-    projectPath: Temp\UnityTempFile-923f0717fac912944b0cd04d33dc7097
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-946df3679e9536e47be3739b7660608e
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-946df3679e9536e47be3739b7660608e
-    projectPath: Temp\UnityTempFile-946df3679e9536e47be3739b7660608e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-98a2613f8cc8b4d4389315e1bd4abbb0
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-98a2613f8cc8b4d4389315e1bd4abbb0
-    projectPath: Temp\UnityTempFile-98a2613f8cc8b4d4389315e1bd4abbb0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-adffe278502e3094eb63c3656cdc665d
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-adffe278502e3094eb63c3656cdc665d
-    projectPath: Temp\UnityTempFile-adffe278502e3094eb63c3656cdc665d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ebced64a6f0151d4e9f3f708d9d3af19
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-ebced64a6f0151d4e9f3f708d9d3af19
-    projectPath: Temp\UnityTempFile-ebced64a6f0151d4e9f3f708d9d3af19
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f2a4703dfd159af41ac1bc2025943878
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-f2a4703dfd159af41ac1bc2025943878
-    projectPath: Temp\UnityTempFile-f2a4703dfd159af41ac1bc2025943878
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f466fae575080784d81f25c8dfd6035b
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityTempFile-f466fae575080784d81f25c8dfd6035b
-    projectPath: Temp\UnityTempFile-f466fae575080784d81f25c8dfd6035b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityVS_obj\Debug\Planets.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\GT303-01\Documents\GitHub\Project_2\Planets\Temp\UnityVS_obj\Debug\Planets.csproj.CoreCompileInputs.cache
-    projectPath: Temp\UnityVS_obj\Debug\Planets.csproj.CoreCompileInputs.cache
     originalPath: 
     status: 1
     staged: 0
