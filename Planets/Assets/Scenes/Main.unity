@@ -113,6 +113,61 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &156168732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 156168734}
+  - component: {fileID: 156168733}
+  m_Layer: 0
+  m_Name: GameCore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &156168733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 156168732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175988d75120720499949b95e63126b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: 
+    cloud: {fileID: 0}
+    count: 0
+    rate: 0
+  - name: 
+    cloud: {fileID: 0}
+    count: 0
+    rate: 0
+  - name: 
+    cloud: {fileID: 0}
+    count: 0
+    rate: 0
+  timeBetweenWaves: 5
+  waveCountdown: 0
+--- !u!4 &156168734
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 156168732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.4034367, y: -12.666025, z: 1.1137589}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &800435083
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +180,7 @@ GameObject:
   - component: {fileID: 800435084}
   - component: {fileID: 800435085}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235,7 +290,7 @@ GameObject:
   - component: {fileID: 847340148}
   - component: {fileID: 847340147}
   - component: {fileID: 847340146}
-  - component: {fileID: 847340151}
+  - component: {fileID: 847340152}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -313,7 +368,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &847340151
+--- !u!114 &847340152
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -321,13 +376,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 847340145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab0bab616bb6fe947b6a2c94803562e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b197dc93bd539046885c906b439d04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comet: {fileID: 143860, guid: ab0a0c7e33e9cf547a8d0a38e001deb4, type: 2}
-  cam: {fileID: 847340149}
-  minSize: 0.1
-  maxSize: 1
+  target: {fileID: 800435087}
+  smoothSpeed: 5
+  offset: {x: 0, y: 2, z: -10}
 --- !u!1001 &1745439600
 Prefab:
   m_ObjectHideFlags: 0
@@ -373,7 +427,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 25080488, guid: d1b388fca9e3a704da80f47db632c2c3, type: 2}
       propertyPath: m_ForceMagnitude
-      value: -200
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 25080488, guid: d1b388fca9e3a704da80f47db632c2c3, type: 2}
       propertyPath: m_ForceVariation
